@@ -191,7 +191,7 @@ Widget _buildStackedAvatar<T>(BuildContext context, List<T> items,
       decoration: BoxDecoration(
           shape: BoxShape.circle,
           border: border,
-          color: Theme.of(context).backgroundColor),
+          color: Theme.of(context).colorScheme.background,),
       child: ClipOval(
           child: builder.call(context, index, Size(size, size), items)));
 }
