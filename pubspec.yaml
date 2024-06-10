@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  implicitly_animated_reorderable_list_2: ^0.5.0
-  intl: ^0.18.0
+  implicitly_animated_reorderable_list_2: ^0.6.0
+  intl: ^0.19.0
   functional_widget_annotation: ^0.10.0
   just_audio: ^0.9.10 #play audio files
   flutter_video_info: ^1.2.0 #retrieve video metadata
