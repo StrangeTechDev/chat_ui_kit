@@ -37,7 +37,7 @@ class GroupAvatarStyle {
 
   /// The border for each loaded image. Only used with [mode] == [GroupAvatarMode.stackedCircles].
   /// Usually you will want to pass something like this:
-  /// Border.all(color: Theme.of(context).backgroundColor, width: 2.0).
+  /// Border.all(color: Theme.of(context).colorScheme.background, width: 2.0).
   /// Default is no border.
   final Border? stackedBorder;
 
@@ -205,7 +205,7 @@ Widget _buildSeparator(BuildContext context, GroupAvatarStyle style,
   return Container(
       width: width,
       height: height,
-      color: style.separatorColor ?? Theme.of(context).backgroundColor);
+      color: style.separatorColor ?? Theme.of(context).colorScheme.background);
 }
 
 /// Build the aligned group avatar itself
